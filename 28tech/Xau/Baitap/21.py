@@ -1,0 +1,8 @@
+s1=input()
+s2=input()
+s1=s1.split()
+s2=s2.split()
+set1=set(s1)
+set2=set(s2)
+giao=set1.intersection(set2)
+print(' '.join(sorted(giao)))

@@ -1,0 +1,8 @@
+s1=input()
+s2=input()
+set1=set(s1)
+set2=set(s2)
+res1=set1.difference(set2)
+res2=set2.difference(set1)
+print(''.join(sorted(res1)))
+print(''.join(sorted(res2)))
